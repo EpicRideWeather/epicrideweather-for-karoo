@@ -1,7 +1,7 @@
 # Epic Ride Weather for Karoo
 Epic Ride Weather for Karoo is an extension for the Hammerhead Karoo device that brings personalized weather forecasts to your ride.
 
-This extension features a Wind Conditions tile for Karoo's in-ride data pages. When in a ride following a route, the tile displays the current wind conditions, as well as the upcoming wind conditions and when they will change. This will allow you to make informed decisions during your ride about whether it's time for a push or if you should save your energy until the wind dies down.
+This extension features a Wind Conditions tile for Karoo's in-ride data pages. When in a ride following a route, the tile displays the current wind conditions, as well as the upcoming wind conditions and when they will change. This will allow you to make informed decisions about exertion through different stages of your ride.
 
 **Note:** This extension is currently in Beta. Any bug reports or feedback is greatly appreciated. Please submit feedback to the Issues tab on this website, or email James at james@epicrideweather.com.
 

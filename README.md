@@ -22,7 +22,7 @@ Download ``app-release.apk``, then locate and long press on the downloaded file.
 - Once completed, tap ``install`` on your Karoo device.
 
 ## Setup
-Opening the app for the first time will walk you through a simple setup process. More detailed instructions are below.
+Opening the app on your Karoo for the first time will walk you through a simple setup process. More detailed instructions are below.
 
 ### Prerequsites
 - A smartphone with Epic Ride Weather installed

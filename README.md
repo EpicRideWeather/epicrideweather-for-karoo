@@ -40,7 +40,7 @@ Opening the app on your Karoo for the first time will walk you through a simple 
 - Add a "Wind Conditions" data tile to your ride profile.
 - Start a ride following one of your saved routes.
 
-## Using the extension
+## Using The Extension
 
 The Wind Conditions data tile has two modes:
 - When placed in a large grid tile, it shows wind conditions for current and upcoming segments of the ride.
@@ -52,13 +52,18 @@ The number in the center of the display shows the average wind speed for that se
 
 The time in the upper right corner shows the estimated duration of the segment based on your average speed. The time for the current segment will count down as you ride.
 
-
-![large data tile](/images/Screenshot_20250206_150531.png)
-![small data tile](/images/Screenshot_20250206_150353.png)
+<img src="/images/Screenshot_20250206_150531.png" width="240" height="400">
+<img src="/images/Screenshot_20250206_150353.png" width="240" height="400">
 
 ## Troubleshooting
 Sometimes the Wind Conditions tile might display a message, indicating that it needs conditions to be met before it can show wind data. Here are some messages you might see:
 ### No Internet
 To recieve weather forecasts, make sure that your Karoo is either paired to your phone via the Hammerhead Companion app or connected to the internet through other means. Karoo devices automatically turn off wifi when starting a route to save power, so if you're relying on wifi, you'll need to turn it back on.
+### No Route
+The extension will only show weather conditions if you are following a route in your ride. To follow a route, navigate to the Routes page, select your desired route, and tap ``Follow`` or on the checkmark button.
 ### Check Account
-You need a synced Epic Ride Weather account to use the extension. This message indicates that either your account is not synced or you subscription is no longer valid. If 
+You need a synced Epic Ride Weather account to use the extension. This message indicates that either your account is not synced or you subscription is no longer valid. If you think this is a mistake, first try re-syncing your account by following the setup instructions above, then contact support if the issue persists.
+### Other Issues
+If you've addressed the problems described above and the display still shows the error message, try restarting your ride. If the extension makes enough unsuccessful requests during a ride, it will stop trying to save on battery.
+
+If you are still having trouble or if you find a bug, don't hesitate to contact support at james@epicrideweather.com

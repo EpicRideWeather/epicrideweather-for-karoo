@@ -52,8 +52,7 @@ The number in the center of the display shows the average wind speed for that se
 
 The time in the upper right corner shows the estimated duration of the segment based on your average speed. The time for the current segment will count down as you ride.
 
-<img src="/images/Screenshot_20250206_150531.png" width="240" height="400">
-<img src="/images/Screenshot_20250206_150353.png" width="240" height="400">
+<img src="/images/Screenshot_20250206_150531.png" width="240" height="400"><img src="/images/Screenshot_20250206_150353.png" width="240" height="400">
 
 ## Troubleshooting
 Sometimes the Wind Conditions tile might display a message, indicating that it needs conditions to be met before it can show wind data. Here are some messages you might see:

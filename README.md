@@ -39,3 +39,26 @@ Opening the app on your Karoo for the first time will walk you through a simple 
 - Tap ``Done`` on your Karoo.
 - Add a "Wind Conditions" data tile to your ride profile.
 - Start a ride following one of your saved routes.
+
+## Using the extension
+
+The Wind Conditions data tile has two modes:
+- When placed in a large grid tile, it shows wind conditions for current and upcoming segments of the ride.
+- When placed iin a small grid tile, it only shows wind conditions for the current segment of the ride.
+
+In the display for each wind segment, the arrow indicates the wind direction relative to your average heading for that section of the ride. In the screenshot below, the relative wind direction changes suddenly between segments because of a left turn in the route ahead.
+
+The number in the center of the display shows the average wind speed for that segment, in the unit specified in the bottom corner.
+
+The time in the upper right corner shows the estimated duration of the segment based on your average speed. The time for the current segment will count down as you ride.
+
+
+![large data tile](/images/Screenshot_20250206_150531.png)
+![small data tile](/images/Screenshot_20250206_150353.png)
+
+## Troubleshooting
+Sometimes the Wind Conditions tile might display a message, indicating that it needs conditions to be met before it can show wind data. Here are some messages you might see:
+### No Internet
+To recieve weather forecasts, make sure that your Karoo is either paired to your phone via the Hammerhead Companion app or connected to the internet through other means. Karoo devices automatically turn off wifi when starting a route to save power, so if you're relying on wifi, you'll need to turn it back on.
+### Check Account
+You need a synced Epic Ride Weather account to use the extension. This message indicates that either your account is not synced or you subscription is no longer valid. If 

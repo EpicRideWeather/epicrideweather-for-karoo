@@ -1,66 +1,89 @@
 # Epic Ride Weather for Karoo Beta
-Welcome to the beta for Epic Ride Weather for Karoo, an extension for the Hammerhead Karoo device that brings personalized weather forecasts to your ride.
 
-This extension features a Wind Conditions tile for Karoo's in-ride data pages. When in a ride following a route, the tile displays the current wind conditions, as well as the upcoming wind conditions and when they will change. This will allow you to make informed decisions about exertion through different stages of your ride.
+Welcome to the Epic Ride Weather for Karoo beta! Our goal is to bring you actionable information so that you can make decisions about your ride.
 
-The Wind Conditions tile has two modes:
-- When placed in a large grid tile, it shows wind conditions for current and upcoming segments of the ride.
-- When placed iin a small grid tile, it only shows wind conditions for the current segment of the ride.
+Epic Ride Weather adds Wind Conditions to the Hammerhead Karoo:
 
-In the display for each wind segment, the arrow indicates the wind direction relative to your average heading for that section of the ride. In the screenshot below, the relative wind direction changes suddenly between segments because of a left turn in the route ahead.
+<img src="images/epicrideweather-karoo-windspeed.jpeg" style="max-width: 100%; height: auto;">
 
-The number in the center of the display shows the average wind speed for that segment, in the unit specified in the bottom corner.
+Wind Conditions show the wind speed and relative direction for the current section and the next section on your route. 
 
-The time in the upper right corner shows the estimated duration of the segment based on your average speed. The time for the current segment will count down as you ride.
+## How it Works
 
-<img src="/images/Screenshot_20250206_150531.png" width="240" height="400"><img src="/images/Screenshot_20250206_150353.png" width="240" height="400">
+Once you've installed the Epic Ride Weather extension on your Karoo, you can add Wind Conditions to any data page. 
 
-Any bug reports or feedback is greatly appreciated. Please submit feedback to the Issues tab on this website, or email James at james@epicrideweather.com.
+When you start a ride that follows a route, the Epic Ride Weather app provides hyperlocal forecasts for your ride. The route is segmented according to the windspeed and bearing. As you progress through your ride, the app displays a countdown for the remaining time with the current conditions, and a prediction the next segment.
 
-Epic Ride Weather for Karoo is available to subscibers of the Epic Ride Weather app for android/ios. You can get the app with [this link](https://www.epicrideweather.com/get-app/).
+Displayed windspeed is absolute and wind direction is relative to the bearing of your route.
 
-## Installation
-Follow the instructions below, or the [sideloading guide](https://support.hammerhead.io/hc/en-us/articles/31576497036827-Companion-App-Sideloading) from Hammerhead.
+## Hook me Up!
 
-- Open this page on your smartphone with the Hammerhead Companion app installed.
-- Navigate to the [releases]() page.
-- Depending on your device type:<br>
-&nbsp;**Karoo 3:**
-Long press on ``app-release.apk``.<br>
-&nbsp;**Karoo 2:**
-Download ``app-release.apk``, then locate and long press on the downloaded file.
-- Open the share menu, and select the Hammerhead Companion app.
-- The Hammerhead Companion app will open and start uploading the file to your Karoo.
-- Once completed, tap ``install`` on your Karoo device.
+This is an invite-only beta. If you're interested in participating, email <a href="mailto:david@epicrideweather.com">david@epicrideweather.com</a>
+
+New to Epic Ride Weather? Learn more at <a href="https://www.epicrideweather.com">https://epicrideweather.com</a>
+
+## Feedback
+
+We want to hear from you! Feel free to send us your feedback, questions, ideas and feature requests: <a href="mailto:james@epicrideweather.com">james@epicrideweather.com</a>
+
+## How to Install
+
+Before starting, ensure that you have your phone ready with the Hammerhead Companion App installed and paired with your Karoo.
+
+To install the extension, follow these steps:
+
+1. Open the [releases](https://github.com/EpicRideWeather/erw-for-karoo/releases) page on your phone and expand "Assets" on the page.
+2. Karoo 3: Long press on ``app-release.apk``<br>
+   Karoo 2: Download ``app-release.apk``, then locate and long press on the downloaded file.
+3. Open the share menu, and select the Hammerhead Companion app.
+4. The Hammerhead Companion app will open and start uploading the file to your Karoo.
+5. Once completed, tap ``install`` on your Karoo device.
 
 ## Setup
-Opening the app on your Karoo for the first time will walk you through a simple setup process. More detailed instructions are below.
 
-### Prerequsites
-- A smartphone with Epic Ride Weather installed
-- An subscription for Epic Ride Weather
-- An internet connection
-- The Epic Ride Weather extension installed on your Karoo (see above)
+1. Open Epic Ride Weather on your Karoo from the extensions library.
+2. Tap on the ``Sync Account`` button, and scan the QR code with the camera app on your phone.
+3. The Epic Ride Weather app will open open, tap ``Add Device`` in Epic Ride Weather. This connects your Karoo to your Epic Ride Weather account. Tip: If the Epic Ride Weather app doesn't open, ensure that you have the latest version installed on your phone from the App Store. Navigate to the account page in Epic Ride Weather, which will activate the beta. Then try scanning the QR code again.
+4. Add a Wind Conditions data tile to your ride profile.
 
-### Steps
-- Open Epic Ride Weather on your Karoo from the extensions library.
-- Tap on the ``Sync Account`` button, and scan the QR code on your smartphone.
-- The Epic Ride Weather app should open on your phone.
-  - If you are taken to the website, follow the instructions there to open the app.
-- Tap ``Add Device`` on your phone.
-- Tap ``Done`` on your Karoo.
-- Add a "Wind Conditions" data tile to your ride profile.
-- Start a ride following one of your saved routes.
+You're done! To try it out, start a ride following a route.
+
+### Tips
+
+- Countdown time and estimated duration are based on your average speed, and will become more accurate as you ride
+- To have both current and upcoming wind conditions, add a data page with a single full-page graphical data card layout.
+
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 20px; margin: 20px 0;">
+<img src="images/karoo-full-size-data-field.jpeg" width="200">
+<img src="images/karoo-current-upcoming.png" width="200"/>
+</div>
+
+- Use a smaller layout to include wind conditions with other data fields
+
+<img src="images/karoo-map-with-wind.png" width="200">
 
 ## Troubleshooting
-Sometimes the Wind Conditions tile might display a message, indicating that it needs conditions to be met before it can show wind data. Here are some messages you might see:
-### No Internet
-To recieve weather forecasts, make sure that your Karoo is either paired to your phone via the Hammerhead Companion app or connected to the internet through other means. Karoo devices automatically turn off wifi when starting a route to save power, so if you're relying on wifi, you'll need to turn it back on.
-### No Route
-The extension will only show weather conditions if you are following a route in your ride. To follow a route, navigate to the Routes page, select your desired route, and tap ``Follow`` or on the checkmark button.
-### Check Account
-You need a synced Epic Ride Weather account to use the extension. This message indicates that either your account is not synced or you subscription is no longer valid. If you think this is a mistake, first try re-syncing your account by following the setup instructions above, then contact support if the issue persists.
-### Other Issues
-If you've addressed the problems described above and the display still shows the error message, try restarting your ride. If the extension makes enough unsuccessful requests during a ride, it will stop trying to save on battery.
 
-If you are still having trouble or if you find a bug, don't hesitate to contact support at james@epicrideweather.com
+This is a beta, so we expect that there could be defects. Feel free to contact us for support via email <a href="mailto:james@epicrideweather.com">james@epicrideweather.com</a> or with a GitHub issue on this page.
+
+Here are some common toubleshooting steps for error messages:
+
+### No Internet
+
+To recieve weather forecasts, make sure that your Karoo is either paired to your phone via the Hammerhead Companion app or connected to the internet using WiFi. Karoo devices automatically turn off WiFi when starting a route to save power, so if you're relying on WiFi you'll need to turn it back on after starting your ride.
+
+### No Route
+
+The extension will only show weather conditions if you are following a route. To follow a route, navigate to the Routes page, select your desired route, and tap ``Follow`` or on the checkmark button.
+
+### Check Account
+
+Your Karoo must be connected to your Epic Ride Weather account to use it. This message indicates that either your account is not connected or your Epic Ride Weather subscription is no longer valid. To reconnect your account, follow the setup steps above. Feel free to contact support if the issue persists.
+
+### Other Issues
+
+If it's unsuccessful enough times, the app will eventually stop trying to get a forecast to save battery. If the error message is still showing up, you can try restarting the ride on your Karoo which will cause the app to try again.
+
+## License
+
+Use of Epic Ride Weather and the Epic Ride Weather for Karoo companion app are subject to the [terms of use](https://www.epicrideweather.com/terms-of-use/) and [privacy policy](https://www.epicrideweather.com/privacy-policy/).

@@ -54,7 +54,7 @@ You're done! To try it out, start a ride following a route.
 - To have both current and upcoming wind conditions, add a data page with a single full-page graphical data card layout.
 
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 20px; margin: 20px 0;">
-<img src="images/karoo-full-size-data-field.jpeg" width="200">
+<img src="images/karoo-full-size-data-field.png" width="200">
 <img src="images/karoo-current-upcoming.png" width="200"/>
 </div>
 

@@ -4,7 +4,7 @@ Welcome to the Epic Ride Weather for Karoo beta! Our goal is to bring you action
 
 Epic Ride Weather adds Wind Conditions to the Hammerhead Karoo:
 
-<img src="images/epicrideweather-karoo-windspeed.jpeg" style="max-width: 100%; height: auto;">
+<img src="images/epicrideweather-karoo-windspeed.png" style="max-width: 100%; height: auto;">
 
 Wind Conditions show the wind speed and relative direction for the current section and the next section on your route. 
 

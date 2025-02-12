@@ -51,7 +51,7 @@ You're done! To try it out, start a ride following a route.
 ### Tips
 
 - Countdown time and estimated duration are based on your average speed, and will become more accurate as you ride
-- To have both current and upcoming wind conditions, add a data page with a single full-page graphical data card layout.
+- To have both current and upcoming wind conditions, add a data page with a single full-page graphical data card layout. A graphical tile is one with a zig-zag design on it, as pictured below.
 
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 20px; margin: 20px 0;">
 <img src="images/karoo-full-size-data-field.png" width="200">

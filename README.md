@@ -43,7 +43,8 @@ To install the extension, follow these steps:
 
 1. Open Epic Ride Weather on your Karoo from the extensions library.
 2. Tap on the ``Connect Account`` button, and scan the QR code with the camera app on your phone.
-3. The Epic Ride Weather app will open, then tap ``Add Device`` in Epic Ride Weather. This connects your Karoo to your Epic Ride Weather account. Tip: If the Epic Ride Weather app doesn't open, ensure that you have the latest version installed on your phone from the App Store. Navigate to the account page in Epic Ride Weather, which will activate the beta. Then try scanning the QR code again.
+3. The Epic Ride Weather app will open, then tap ``Add Device`` in Epic Ride Weather. This connects your Karoo to your Epic Ride Weather account.
+   > Tip: If the Epic Ride Weather app doesn't open, ensure that you have the latest version installed on your phone from the App Store. Navigate to the account page in Epic Ride Weather, which will activate the beta. Then try scanning the QR code again.
 4. Add a Wind Conditions data tile to your ride profile.
 
 You're done! To try it out, start a ride following a route.

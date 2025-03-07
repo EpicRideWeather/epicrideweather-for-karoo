@@ -28,16 +28,7 @@ We want to hear from you! Feel free to send us your feedback, questions, ideas a
 
 ## How to Install
 
-Before starting, ensure that you have your phone ready with the Hammerhead Companion App installed and paired with your Karoo.
-
-To install the extension, follow these steps:
-
-1. Open the [releases](https://github.com/EpicRideWeather/erw-for-karoo/releases) page on your phone and expand "Assets" on the page.
-2. Karoo 3: Long press on ``app-release.apk``<br>
-   Karoo 2: Download ``app-release.apk``, then locate and long press on the downloaded file.
-3. Open the share menu, and select the Hammerhead Companion app.
-4. The Hammerhead Companion app will open and start uploading the file to your Karoo.
-5. Once completed, tap ``install`` on your Karoo device.
+Detailed instructions for loading the app on your Karoo are on provided on the Hammerhead support page: https://support.hammerhead.io/hc/en-us/articles/34676015530907-Karoo-OS-Extensions-Library
 
 ## Setup
 

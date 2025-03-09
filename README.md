@@ -51,11 +51,13 @@ This is a beta, so we expect that there could be defects. Feel free to contact u
 
 Here are some common toubleshooting steps for error messages:
 
+### Loading
+
+Sometimes loading can take longer than you might expect. Try waiting 30 seconds to see if it resolves itself; it can take a few moments to make a connection, especially if you are out on a ride.
+
 ### No Internet
 
 To recieve weather forecasts, make sure that your Karoo is either paired to your phone via the Hammerhead Companion app or connected to the internet using WiFi. Karoo devices automatically turn off WiFi when starting a route to save power, so if you're relying on WiFi you'll need to turn it back on after starting your ride.
-
-If you're using the internet through the Hammerhead Companion app and you see this message, try waiting 30 seconds to see if it resolves itself. Sometimes it takes a few moments to make a connection.
 
 ### No Route
 
